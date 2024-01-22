@@ -1,0 +1,50 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: black;
+  padding: 12px;
+}
+
+.sidebar .logo-container {
+  background-color: #121212;
+  height: 20px;
+  display: flex;
+  border-radius: 8px;
+
+  padding: 16px 0 0 16px;
+}
+
+.sidebar .logo-container img {
+  width: 80px;
+}
+
+.sidebar__navigation {
+  background-color: #121212;
+  border-radius: 8px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0px 20px 10px;
+}
+
+.sidebar nav ul li {
+  padding: 10px 0px;
+}
+
+.sidebar nav ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.sidebar nav ul li a i {
+  font-size: 20px;
+  margin-right: 10px;
+}
