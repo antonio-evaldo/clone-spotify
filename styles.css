@@ -10,7 +10,6 @@
 
 .sidebar .logo-container {
   background-color: #121212;
-  height: 20px;
   display: flex;
   border-radius: 8px;
 
@@ -47,4 +46,31 @@
 .sidebar nav ul li a i {
   font-size: 20px;
   margin-right: 10px;
+}
+
+.library {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 4px 8px;
+  color: #b3b3b3;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.library .library__content__button {
+  margin-right: 10px;
+  background-color: transparent;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.library .library__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.library .library__content .fa-plus {
+  margin: 24px 10px;
 }
